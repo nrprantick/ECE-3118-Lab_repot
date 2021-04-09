@@ -29,3 +29,11 @@ $ git add -A
  $ git status  
  ```
  The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
+ ## Record the changes in the repository:
+ When we add a file in Git, it will take place in the staging area. A commit command is used to fetch updates from the staging area to the repository.It is written as: 
+ ```
+ $ git commit -m "<Commit message>"
+ ```
+ Here -m is used to display commit messege.The commit command will commit the changes and generate a commit-id. The commit command without any argument will open the default text editor and ask for the commit message. 
+
+ 
