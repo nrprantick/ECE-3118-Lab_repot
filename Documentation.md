@@ -91,3 +91,10 @@ We can fetch a specific branch from a repository. It will only access the elemen
 $ git fetch <branch URL><branch name>  
 ```
 It is recomanded to fetch everytime before start working, when we work on a group. So, we can be updated with team-members.
+## Upload files to remote repository:
+To upload files we use git push.The push term refers to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repository. Pushing is capable of overwriting changes; caution should be taken when pushing.
+Git push origin master is a special command-line utility that specifies the remote branch and directory. When you have multiple branches and directory, then this command assists you in determining your main branch and repository.
+Generally, the term origin stands for the remote repository, and master is considered as the main branch. So, the entire statement "git push origin master" pushed the local content on the master branch of the remote location.
+```
+$ git push origin master  
+```
