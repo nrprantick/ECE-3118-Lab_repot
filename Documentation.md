@@ -36,4 +36,9 @@ $ git add -A
  ```
  Here -m is used to display commit messege.The commit command will commit the changes and generate a commit-id. The commit command without any argument will open the default text editor and ask for the commit message. 
 
- 
+ ## Check the last commit point: 
+ The git show head is used to check the status of the Head. This command will show the location of the Head. Syntax:
+
+```
+$ git show HEAD  
+```
