@@ -60,3 +60,14 @@ When we fetch a repository implicitly, git adds a remote for the repository. Als
 ```
 $ git remote add <short name><remote URL>  
 ```
+##  Switch between branches in a repository: 
+We can perform many operations by git checkout command like the switch to a specific branch, create a new branch, checkout a remote branch, and more. The git branch and git checkout commands can be integrated.
+
+To demonstrate available branches in repository, use the below command:
+```
+$ git branch  
+```
+Now, we have the list of available branches. To switch between branches, use the below command.
+```
+$ git checkout <branchname>  
+```
