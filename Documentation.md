@@ -47,3 +47,16 @@ The basic git log command will display the most recent commits and the status of
 ```
 $ git log  
 ```
+## Connect local repository to remote repository: 
+To check the configuration of the remote server, run the git remote command. The git remote command allows accessing the connection between remote and local. It can be used as:
+```
+$ git remote  
+```
+Git remote supports a specific option -v to show the URLs that Git has stored as a short name. These short names are used during the reading and write operation. Here, -v stands for verbose. It is used as:
+```
+$ git remote -v  
+```
+When we fetch a repository implicitly, git adds a remote for the repository. Also, we can explicitly add a remote for a repository. We can add a remote as a shot nickname or short name. To add remote as a short name, follow the below command:
+```
+$ git remote add <short name><remote URL>  
+```
