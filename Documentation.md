@@ -13,3 +13,13 @@ To make a local copy of a remote repository we use:
 $ git clone <repository URL>  
 ```
 Usually, the original repository is located on a remote server, often from a Git service like GitHub, Bitbucket, or GitLab. The remote repository URL is referred to the origin.
+
+## Add files to stating area: 
+We can add single or multiple files at once in the staging area.To add single file, we use: 
+```
+$ git add <File name>
+```
+To add all unstaged files to staging area, we use:
+```
+$ git add -A
+```
