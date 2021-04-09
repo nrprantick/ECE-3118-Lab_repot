@@ -71,3 +71,23 @@ Now, we have the list of available branches. To switch between branches, use the
 ```
 $ git checkout <branchname>  
 ```
+##  Fetch the complete repository: 
+We can pull the repository by using the git pull command. The syntax is given below:
+```
+$ git pull <options><remote>/<branchname>  
+```
+like,
+```
+$ git pull origin master  
+```
+In the above syntax, the term origin stands for the repository location where the remote repository situated. Master is considered as the main branch of the project.
+
+We can fetch the complete repository with the help of fetch command from a repository URL. It is just like pull command.
+```
+$ git fetch< repository Url>  
+```
+We can fetch a specific branch from a repository. It will only access the element from a specific branch. Syntax:
+```
+$ git fetch <branch URL><branch name>  
+```
+It is recomanded to fetch everytime before start working, when we work on a group. So, we can be updated with team-members.
