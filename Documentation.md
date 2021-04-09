@@ -42,3 +42,8 @@ $ git add -A
 ```
 $ git show HEAD  
 ```
+### Review and read full history:
+The basic git log command will display the most recent commits and the status of the head. It will use as:
+```
+$ git log  
+```
