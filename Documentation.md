@@ -23,3 +23,9 @@ To add all unstaged files to staging area, we use:
 ```
 $ git add -A
 ```
+## Display the state of the repository and staging area:
+ To check the status, we use: 
+ ```
+ $ git status  
+ ```
+ The git status command is used to display the state of the repository and staging area. It allows us to see the tracked, untracked files and changes. This command will not show any commit records or information.
